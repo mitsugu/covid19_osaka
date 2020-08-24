@@ -1,7 +1,7 @@
 {
-  "name": "covid19_osaka",
+  "name": "getosaka",
   "version": "1.0.0",
-  "description": "",
+  "description": "大阪府の最新感染動向のデータ更新で使われている data.json を csv 形式で標準出力に出力する。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bin":{
+  "bin": {
+    "getosaka": "getosaka.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitsugu/covid19_osaka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitsugu/covid19_osaka/issues"
+  },
+  "homepage": "https://github.com/mitsugu/covid19_osaka#readme",
+  "bin": {
     "getosaka":"./getosaka.js"
   }
 }
