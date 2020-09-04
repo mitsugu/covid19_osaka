@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 const fs = require("fs");
-fs.readFile("./covid19osaka/data/data.json",{ encoding: "utf8" }, (err, file) => {
+fs.readFile("./data.json",{ encoding: "utf8" }, (err, file) => {
   if (err) {
     console.error(err);
   } else {
