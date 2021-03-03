@@ -20,7 +20,7 @@ fs.readFile("./data.json",{ encoding: "utf8" }, (err, file) => {
                 + obj.main_summary.children[0].children[7].value;             // 符外健康観察
     console.log( "\"" + d + "\"" + ", "
                   + kei + ", "
-                  + jyuu + ", "
+                  + jyuu + ",, "
                   + shibou + ", "
                   + taiin );
   }
